@@ -17,7 +17,7 @@ fi
 if [ -f "deployment-config.json" ]; then
     echo ""
     echo "Deployment Configuration:"
-    cat deployment-config.json | grep -E '"(service|version|environment|deployed_at)"' | sed 's/^[[:space:]]*/  /'
+    grep -E '"(service|version|environment|deployed_at)"' deployment-config.json | sed 's/^[[:space:]]*/  /'
 else
     echo "Warning: deployment-config.json not found"
 fi
