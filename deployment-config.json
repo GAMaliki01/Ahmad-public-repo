@@ -1,0 +1,7 @@
+{
+  "service": "data-puller",
+  "version": "1.0.0",
+  "environment": "production",
+  "deployed_at": "2025-12-02T19:46:00Z",
+  "description": "Data puller service for fetching and processing data"
+}
